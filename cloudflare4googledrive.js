@@ -92,7 +92,9 @@ function list(path){
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
 	 </div>
-	 <div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
+	 <div id="readme_md" class="mdui-typo" style="display:block; padding: 20px 0;">
+	 Contact:admin@blogfeng.com
+	 </div>
 	`;
 	$('#content').html(content);
 	
